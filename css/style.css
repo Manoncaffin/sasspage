@@ -1,0 +1,154 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "poppins";
+    color: #333;
+    font-size: 16px;
+}
+
+.logo {
+    position: absolute;
+    line-height: 3rem;
+    padding: 10px 4rem;
+    font-size: 30px;
+}
+
+.logo span {
+    position: fixed;
+    display: inline-block;
+    top: 10px;
+    left: 10px;
+    color: #008da0;
+    background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #008da0;
+}
+
+.home {
+    min-height: 500px;
+    height: 100vh;
+    padding: 4rem 4rem;
+    box-sizing: border-box;
+    background: #00c1db;
+    background: -moz-radial-gradient(center, ellipse cover, #00c1db 0%, #008da0 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #00c1db 0%, #008da0 100%);
+    background: radial-gradient(ellipse at center, #00c1db 0%, #008da0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c1db', endColorstr='#008da0', GradientType=1);
+    display: flex;
+    flex-direction: column;
+}
+
+.home .welcome {
+    margin: auto;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.home .welcome h1 {
+    border-bottom: 2px dotted #fff;
+    margin: 0 0 2rem 0;
+    padding: 0 0 2rem 0;
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0 0.3rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+}
+
+.services {
+    background-color: white;
+    color: #333;
+    height: 50vh;
+    width: auto;
+    padding: 4rem 4rem;
+
+    h2 {
+        color: #008da0; 
+    }
+}
+
+.services>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services .service-block {
+    width: 30%;
+    min-width: 280px;
+    margin: 1.5%;
+    box-sizing: border-box;
+}
+
+.services .service-block h3 {
+	color: #008da0;
+	text-align: center;  
+}
+
+.services .service-block .service-img {
+	background-color: #ccc;
+	height: 150px;  
+}
+
+#contacts {
+    background-color: #cccccc;
+    height: 81vh;
+    width: auto;
+    padding: 4rem 4rem;
+}
+
+.contacts form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;  
+    color: #004a54;
+}
+
+.contacts form label {
+	margin: 1rem 0;  
+}
+
+.contacts .btn {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.contacts form input, .contacts form textarea {
+    border: 1px solid #004a54;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.contacts form input[type="submit"] {
+	background-color: #008da0;
+	width: 25%;
+	margin: 1rem auto;  
+}
+
+.input[type="text"]:focus {
+    
+}
+
+footer {
+    padding: 1rem 4rem;
+    background-color: #004a54;
+    color: #008da0;
+    text-align: center;
+    font-size: 0.8rem;
+}
