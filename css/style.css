@@ -141,10 +141,6 @@ a {
 	margin: 1rem auto;  
 }
 
-.input[type="text"]:focus {
-    
-}
-
 footer {
     padding: 1rem 4rem;
     background-color: #004a54;
